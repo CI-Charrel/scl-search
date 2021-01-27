@@ -1,0 +1,478 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v1.1",
+    "signature": "a427f522cb12f574525829b4d2aaba58f1a9545a"
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v1.1": {
+      "LuceneSearchLayer.NetCore1.1/1.0.0": {
+        "dependencies": {
+          "Lucene.Net": "4.8.0-beta00005",
+          "Lucene.Net.Analysis.Common": "4.8.0-beta00005",
+          "Lucene.Net.Queries": "4.8.0-beta00005",
+          "Lucene.Net.QueryParser": "4.8.0-beta00005",
+          "Lucene.Net.Suggest": "4.8.0-beta00005",
+          "Microsoft.Data.Sqlite": "1.1.0",
+          "SearchLayerBase": "1.0.0",
+          "System.IO.FileSystem.DriveInfo": "4.3.1"
+        },
+        "runtime": {
+          "LuceneSearchLayer.NetCore1.1.dll": {}
+        }
+      },
+      "Lucene.Net/4.8.0-beta00005": {
+        "dependencies": {
+          "Microsoft.CSharp": "4.4.0",
+          "Microsoft.Extensions.DependencyModel": "2.0.0",
+          "Newtonsoft.Json": "10.0.3",
+          "System.Collections.NonGeneric": "4.3.0",
+          "System.Collections.Specialized": "4.3.0",
+          "System.Diagnostics.TraceSource": "4.3.0"
+        },
+        "runtime": {
+          "lib/netstandard1.6/Lucene.Net.dll": {
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "4.8.0.0"
+          }
+        }
+      },
+      "Lucene.Net.Analysis.Common/4.8.0-beta00005": {
+        "dependencies": {
+          "Lucene.Net": "4.8.0-beta00005",
+          "System.ComponentModel.Primitives": "4.3.0"
+        },
+        "runtime": {
+          "lib/netstandard1.6/Lucene.Net.Analysis.Common.dll": {
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "4.8.0.0"
+          }
+        }
+      },
+      "Lucene.Net.Misc/4.8.0-beta00005": {
+        "dependencies": {
+          "Lucene.Net": "4.8.0-beta00005"
+        },
+        "runtime": {
+          "lib/netstandard1.6/Lucene.Net.Misc.dll": {
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "4.8.0.0"
+          }
+        }
+      },
+      "Lucene.Net.Queries/4.8.0-beta00005": {
+        "dependencies": {
+          "Lucene.Net": "4.8.0-beta00005"
+        },
+        "runtime": {
+          "lib/netstandard1.6/Lucene.Net.Queries.dll": {
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "4.8.0.0"
+          }
+        }
+      },
+      "Lucene.Net.QueryParser/4.8.0-beta00005": {
+        "dependencies": {
+          "Lucene.Net.Analysis.Common": "4.8.0-beta00005",
+          "Lucene.Net.Queries": "4.8.0-beta00005",
+          "Lucene.Net.Sandbox": "4.8.0-beta00005",
+          "System.Xml.XmlDocument": "4.3.0"
+        },
+        "runtime": {
+          "lib/netstandard1.6/Lucene.Net.QueryParser.dll": {
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "4.8.0.0"
+          }
+        }
+      },
+      "Lucene.Net.Sandbox/4.8.0-beta00005": {
+        "dependencies": {
+          "Lucene.Net": "4.8.0-beta00005"
+        },
+        "runtime": {
+          "lib/netstandard1.6/Lucene.Net.Sandbox.dll": {
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "4.8.0.0"
+          }
+        }
+      },
+      "Lucene.Net.Suggest/4.8.0-beta00005": {
+        "dependencies": {
+          "Lucene.Net.Analysis.Common": "4.8.0-beta00005",
+          "Lucene.Net.Misc": "4.8.0-beta00005",
+          "Lucene.Net.Queries": "4.8.0-beta00005"
+        },
+        "runtime": {
+          "lib/netstandard1.6/Lucene.Net.Suggest.dll": {
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "4.8.0.0"
+          }
+        }
+      },
+      "Microsoft.CSharp/4.4.0": {
+        "runtime": {
+          "lib/netstandard1.3/Microsoft.CSharp.dll": {
+            "assemblyVersion": "4.0.2.0",
+            "fileVersion": "4.6.24705.1"
+          }
+        }
+      },
+      "Microsoft.Data.Sqlite/1.1.0": {
+        "dependencies": {
+          "SQLite": "3.13.0",
+          "System.Data.Common": "4.3.0"
+        },
+        "runtime": {
+          "lib/netstandard1.3/Microsoft.Data.Sqlite.dll": {
+            "assemblyVersion": "1.1.0.0",
+            "fileVersion": "1.1.0.21115"
+          }
+        }
+      },
+      "Microsoft.DotNet.PlatformAbstractions/2.0.0": {
+        "runtime": {
+          "lib/netstandard1.3/Microsoft.DotNet.PlatformAbstractions.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.0.0.0"
+          }
+        }
+      },
+      "Microsoft.Extensions.DependencyModel/2.0.0": {
+        "dependencies": {
+          "Microsoft.DotNet.PlatformAbstractions": "2.0.0",
+          "Newtonsoft.Json": "10.0.3"
+        },
+        "runtime": {
+          "lib/netstandard1.6/Microsoft.Extensions.DependencyModel.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.0.0.0"
+          }
+        }
+      },
+      "Newtonsoft.Json/10.0.3": {
+        "dependencies": {
+          "Microsoft.CSharp": "4.4.0",
+          "System.ComponentModel.TypeConverter": "4.3.0",
+          "System.Runtime.Serialization.Formatters": "4.3.0",
+          "System.Runtime.Serialization.Primitives": "4.3.0",
+          "System.Xml.XmlDocument": "4.3.0"
+        },
+        "runtime": {
+          "lib/netstandard1.3/Newtonsoft.Json.dll": {
+            "assemblyVersion": "10.0.0.0",
+            "fileVersion": "10.0.3.21018"
+          }
+        }
+      },
+      "SQLite/3.13.0": {
+        "runtimeTargets": {
+          "runtimes/linux-x64/native/libsqlite3.so": {
+            "rid": "linux-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/osx-x64/native/libsqlite3.dylib": {
+            "rid": "osx-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/win7-x64/native/sqlite3.dll": {
+            "rid": "win7-x64",
+            "assetType": "native",
+            "fileVersion": "3.13.0.0"
+          },
+          "runtimes/win7-x86/native/sqlite3.dll": {
+            "rid": "win7-x86",
+            "assetType": "native",
+            "fileVersion": "3.13.0.0"
+          }
+        }
+      },
+      "System.Collections.NonGeneric/4.3.0": {
+        "runtime": {
+          "lib/netstandard1.3/System.Collections.NonGeneric.dll": {
+            "assemblyVersion": "4.0.2.0",
+            "fileVersion": "4.6.24705.1"
+          }
+        }
+      },
+      "System.Collections.Specialized/4.3.0": {
+        "dependencies": {
+          "System.Collections.NonGeneric": "4.3.0"
+        },
+        "runtime": {
+          "lib/netstandard1.3/System.Collections.Specialized.dll": {
+            "assemblyVersion": "4.0.2.0",
+            "fileVersion": "4.6.24702.1"
+          }
+        }
+      },
+      "System.ComponentModel.Primitives/4.3.0": {
+        "runtime": {
+          "lib/netstandard1.0/System.ComponentModel.Primitives.dll": {
+            "assemblyVersion": "4.1.1.0",
+            "fileVersion": "4.6.24705.1"
+          }
+        }
+      },
+      "System.ComponentModel.TypeConverter/4.3.0": {
+        "dependencies": {
+          "System.Collections.NonGeneric": "4.3.0",
+          "System.Collections.Specialized": "4.3.0",
+          "System.ComponentModel.Primitives": "4.3.0"
+        },
+        "runtime": {
+          "lib/netstandard1.5/System.ComponentModel.TypeConverter.dll": {
+            "assemblyVersion": "4.1.1.0",
+            "fileVersion": "4.6.24705.1"
+          }
+        }
+      },
+      "System.Data.Common/4.3.0": {
+        "runtime": {
+          "lib/netstandard1.2/System.Data.Common.dll": {
+            "assemblyVersion": "4.1.1.0",
+            "fileVersion": "4.6.24705.1"
+          }
+        }
+      },
+      "System.Diagnostics.TraceSource/4.3.0": {
+        "runtimeTargets": {
+          "runtimes/unix/lib/netstandard1.3/System.Diagnostics.TraceSource.dll": {
+            "rid": "unix",
+            "assetType": "runtime",
+            "assemblyVersion": "4.0.1.0",
+            "fileVersion": "4.6.24705.1"
+          },
+          "runtimes/win/lib/netstandard1.3/System.Diagnostics.TraceSource.dll": {
+            "rid": "win",
+            "assetType": "runtime",
+            "assemblyVersion": "4.0.1.0",
+            "fileVersion": "4.6.24705.1"
+          }
+        }
+      },
+      "System.IO.FileSystem.DriveInfo/4.3.1": {
+        "runtimeTargets": {
+          "runtimes/unix/lib/netstandard1.3/System.IO.FileSystem.DriveInfo.dll": {
+            "rid": "unix",
+            "assetType": "runtime",
+            "assemblyVersion": "4.0.1.1",
+            "fileVersion": "4.6.25705.1"
+          },
+          "runtimes/win/lib/netstandard1.3/System.IO.FileSystem.DriveInfo.dll": {
+            "rid": "win",
+            "assetType": "runtime",
+            "assemblyVersion": "4.0.1.1",
+            "fileVersion": "4.6.25705.1"
+          }
+        }
+      },
+      "System.Runtime.Serialization.Formatters/4.3.0": {
+        "dependencies": {
+          "System.Runtime.Serialization.Primitives": "4.3.0"
+        },
+        "runtime": {
+          "lib/netstandard1.4/System.Runtime.Serialization.Formatters.dll": {
+            "assemblyVersion": "4.0.1.0",
+            "fileVersion": "4.6.24705.1"
+          }
+        }
+      },
+      "System.Runtime.Serialization.Primitives/4.3.0": {
+        "runtime": {
+          "lib/netstandard1.3/System.Runtime.Serialization.Primitives.dll": {
+            "assemblyVersion": "4.1.2.0",
+            "fileVersion": "4.6.24705.1"
+          }
+        }
+      },
+      "System.Xml.XmlDocument/4.3.0": {
+        "runtime": {
+          "lib/netstandard1.3/System.Xml.XmlDocument.dll": {
+            "assemblyVersion": "4.0.2.0",
+            "fileVersion": "4.6.24705.1"
+          }
+        }
+      },
+      "SearchLayerBase/1.0.0": {
+        "runtime": {
+          "SearchLayerBase.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "LuceneSearchLayer.NetCore1.1/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Lucene.Net/4.8.0-beta00005": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-UprkNBEOLxszKl1YN70zDVRU8wJkV4SBvcWqs822Oqpxj5arvxMRqkvqVhBPajPz3YxObsLxJNdYE62xviQjKQ==",
+      "path": "lucene.net/4.8.0-beta00005",
+      "hashPath": "lucene.net.4.8.0-beta00005.nupkg.sha512"
+    },
+    "Lucene.Net.Analysis.Common/4.8.0-beta00005": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-40+ARCsfFky5ykNqri26H3ehjPqRGpyIn4do2MIiL8QbgGrijpgl5GzwiPrZUUIlxlI1e7UhFCLXovl+Hv9qNg==",
+      "path": "lucene.net.analysis.common/4.8.0-beta00005",
+      "hashPath": "lucene.net.analysis.common.4.8.0-beta00005.nupkg.sha512"
+    },
+    "Lucene.Net.Misc/4.8.0-beta00005": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-sNYVPp83QtijrFNzCkL/H74jtrRQuJt+igin6Mqe2VIb9NU7hxZXz1fh4f/q4nxxcsgfkBAwSlXc1o7wt5yDFA==",
+      "path": "lucene.net.misc/4.8.0-beta00005",
+      "hashPath": "lucene.net.misc.4.8.0-beta00005.nupkg.sha512"
+    },
+    "Lucene.Net.Queries/4.8.0-beta00005": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-rDTIHnDgvQ21PBHOjVmIjzNhZS09Vklu1H93GIkQiqpO+II1biIMc6+cP7/lVK0VNS4i9fyMVeWeKSPC+ox09g==",
+      "path": "lucene.net.queries/4.8.0-beta00005",
+      "hashPath": "lucene.net.queries.4.8.0-beta00005.nupkg.sha512"
+    },
+    "Lucene.Net.QueryParser/4.8.0-beta00005": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-qSVVDh7Uoa/yPOzo0QUXyHxFfaLwbr3p1fD6lUgBH+ucKK6qmMCEM2SHXCBssfrS7OTlgHFK3GrHaq1Det8CxQ==",
+      "path": "lucene.net.queryparser/4.8.0-beta00005",
+      "hashPath": "lucene.net.queryparser.4.8.0-beta00005.nupkg.sha512"
+    },
+    "Lucene.Net.Sandbox/4.8.0-beta00005": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-b6S7vc6IGLDNUBeYwEY03AgngoRra8c/DH76S6EWtCw38Oq4jCUtHLrc25sLHV1T/U75lSfn62/BttGTOvPzGQ==",
+      "path": "lucene.net.sandbox/4.8.0-beta00005",
+      "hashPath": "lucene.net.sandbox.4.8.0-beta00005.nupkg.sha512"
+    },
+    "Lucene.Net.Suggest/4.8.0-beta00005": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-88cbSOaD+0t0BtiFJPazWZZ42joT2xKFPY5uIPmBBVTnjuR8xL7jdqHUXkbZ3QRxeRweQCOWJL6AMJL/xaxSYw==",
+      "path": "lucene.net.suggest/4.8.0-beta00005",
+      "hashPath": "lucene.net.suggest.4.8.0-beta00005.nupkg.sha512"
+    },
+    "Microsoft.CSharp/4.4.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-vvVR/B08YVghQ4jHEloxqw2ZWzEGE1AOA5E0DioUM3ujbXz6FD3AfB/0Jl2ohJPd0nXYGwmPe1En6HTsSriq1A==",
+      "path": "microsoft.csharp/4.4.0",
+      "hashPath": "microsoft.csharp.4.4.0.nupkg.sha512"
+    },
+    "Microsoft.Data.Sqlite/1.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-T09U31d2uBe9bvECrz/5cgMPR3256D8SY/+bVDD+KqpX9kbLQuyunm8pR9aUDlsRrVOlSq5Gbg2vMOnBMRbJRQ==",
+      "path": "microsoft.data.sqlite/1.1.0",
+      "hashPath": "microsoft.data.sqlite.1.1.0.nupkg.sha512"
+    },
+    "Microsoft.DotNet.PlatformAbstractions/2.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-l5tDOSom+qpx4pDEoIcqMHnGC7jJ4Uq1DiJ6St/bn0rb5xIh/q4u7OQTIcE1k+1o7E0lYnJA4ZluzS6HGFr4zw==",
+      "path": "microsoft.dotnet.platformabstractions/2.0.0",
+      "hashPath": "microsoft.dotnet.platformabstractions.2.0.0.nupkg.sha512"
+    },
+    "Microsoft.Extensions.DependencyModel/2.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-DyZ/Ibv/SZRMpYhaDCj0nlA+Qe52NyEL51onxAL94bUPauX0jxrK6jyxXN5DI8NVbzE5sOUWZYjTduNqUdbB+g==",
+      "path": "microsoft.extensions.dependencymodel/2.0.0",
+      "hashPath": "microsoft.extensions.dependencymodel.2.0.0.nupkg.sha512"
+    },
+    "Newtonsoft.Json/10.0.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-hSXaFmh7hNCuEoC4XNY5DrRkLDzYHqPx/Ik23R4J86Z7PE/Y6YidhG602dFVdLBRSdG6xp9NabH3dXpcoxWvww==",
+      "path": "newtonsoft.json/10.0.3",
+      "hashPath": "newtonsoft.json.10.0.3.nupkg.sha512"
+    },
+    "SQLite/3.13.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-MJfRiz2p6aMVOxrxGMdVzhpzI0oxTgZSwC8eVuOpV8L7yYaFUu8q/OFYwv9P0/aZ/pdEu24O6gma6wZJMTun9A==",
+      "path": "sqlite/3.13.0",
+      "hashPath": "sqlite.3.13.0.nupkg.sha512"
+    },
+    "System.Collections.NonGeneric/4.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-RmcalNP79WEzXffdgnchLO5MxwYwK5hvjpE9SDkGXcKp38c9yd5CemAstfprwdQuC/0qUAnbFWKrQ9i7INJuWA==",
+      "path": "system.collections.nongeneric/4.3.0",
+      "hashPath": "system.collections.nongeneric.4.3.0.nupkg.sha512"
+    },
+    "System.Collections.Specialized/4.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-mZnD/7RkP2KaVMszcl3NsColwzzvQKO6oVdtMHy2I7w4s9A1XD+DDTDo3i5G9NpwAZUEcRsRN32Ksii0yXBTQg==",
+      "path": "system.collections.specialized/4.3.0",
+      "hashPath": "system.collections.specialized.4.3.0.nupkg.sha512"
+    },
+    "System.ComponentModel.Primitives/4.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-H8Igq44YOizfbRrVY212VuGLOdIGYW+gKvuniprrHLpksuY7wrLDLclmK5Pr/7yPqpsepJ3xbFLEOReeyhgNkg==",
+      "path": "system.componentmodel.primitives/4.3.0",
+      "hashPath": "system.componentmodel.primitives.4.3.0.nupkg.sha512"
+    },
+    "System.ComponentModel.TypeConverter/4.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-9PVr1aifw9C3gHgL+GVFymO8ofJNxwMzCy3K2Fe9sIVLIIx4bxNXLJ3D6VEsiFvS2wCsjuLZiGEntHgknQcmXQ==",
+      "path": "system.componentmodel.typeconverter/4.3.0",
+      "hashPath": "system.componentmodel.typeconverter.4.3.0.nupkg.sha512"
+    },
+    "System.Data.Common/4.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-lm6E3T5u7BOuEH0u18JpbJHxBfOJPuCyl4Kg1RH10ktYLp5uEEE1xKrHW56/We4SnZpGAuCc9N0MJpSDhTHZGQ==",
+      "path": "system.data.common/4.3.0",
+      "hashPath": "system.data.common.4.3.0.nupkg.sha512"
+    },
+    "System.Diagnostics.TraceSource/4.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-VnYp1NxGx8Ww731y2LJ1vpfb/DKVNKEZ8Jsh5SgQTZREL/YpWRArgh9pI8CDLmgHspZmLL697CaLvH85qQpRiw==",
+      "path": "system.diagnostics.tracesource/4.3.0",
+      "hashPath": "system.diagnostics.tracesource.4.3.0.nupkg.sha512"
+    },
+    "System.IO.FileSystem.DriveInfo/4.3.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-gz8sWY1XgW7gXYOGByug+yQKzObmYns9rsdS57rwHy+amIQt9vi8evYB20UXrOB5CR205cruh9xEjBEzGWnL7w==",
+      "path": "system.io.filesystem.driveinfo/4.3.1",
+      "hashPath": "system.io.filesystem.driveinfo.4.3.1.nupkg.sha512"
+    },
+    "System.Runtime.Serialization.Formatters/4.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Cs7Exc9VOXskk8HNGV5+l7PGdl7GL0Hu13zZEmZVX0td1lHout3LeIGYpLGhfoMwPDT2ScDzjOBFtRb+v3BKoQ==",
+      "path": "system.runtime.serialization.formatters/4.3.0",
+      "hashPath": "system.runtime.serialization.formatters.4.3.0.nupkg.sha512"
+    },
+    "System.Runtime.Serialization.Primitives/4.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-6YM27pMREvw/w8dpRWg2Yvjba5Wknkfn430Ne5Og1gB5KdO8kFNmRzZ9osLkicTGnPaNXKf6jkp6Y19HKui1LA==",
+      "path": "system.runtime.serialization.primitives/4.3.0",
+      "hashPath": "system.runtime.serialization.primitives.4.3.0.nupkg.sha512"
+    },
+    "System.Xml.XmlDocument/4.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Fdlj8WtQIs4KQ44dcZB9RRnUSqaYpnhAu4/o9/wfs0mxARC7aSxj+CqT02ZnCrqGpO/Zx/mtpmJR6uzQYddQig==",
+      "path": "system.xml.xmldocument/4.3.0",
+      "hashPath": "system.xml.xmldocument.4.3.0.nupkg.sha512"
+    },
+    "SearchLayerBase/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
